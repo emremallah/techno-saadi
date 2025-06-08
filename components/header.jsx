@@ -84,7 +84,7 @@ export default function Header() {
             transition={{ duration: 0.25 }}
             className="overflow-hidden border-t border-slate-200 bg-white px-4 pb-4 dark:border-slate-700 dark:bg-slate-900 lg:hidden"
           >
-            <ul className="flex flex-col gap-3 pt-4 rtl:text-right">
+            <ul className="flex flex-col gap-3 pt-4 rtl:text-right text-center">
               {NAV_LINKS.map(({ href, label }) => (
                 <li key={href}>
                   <Link
