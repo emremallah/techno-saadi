@@ -1,32 +1,13 @@
 import Link from "next/link";
 
 const categories = [
-  {
-    title: "الکتروموتور",
-    href: "/products/electromotor",
-    image: "/categories/electromotor.jpeg",
-  },
-  {
-    title: "گیربکس NMRV (حلزونی)",
-    href: "/products/gearbox-nmrv",
-    image: "/categories/gearbox-nmrv.jpeg",
-  },
-  {
-    title: "گیربکس صنعتی",
-    href: "/products/industrial-gearbox",
-    image: "/categories/industrial-gearbox.jpeg",
-  },
-  {
-    title: "جک اسکرو",
-    href: "/products/screw-jack",
-    image: "/categories/screw-jack.jpeg",
-  },
-  {
-    title: "ویبراتور",
-    href: "/products/vibrator",
-    image: "/categories/vibrator.jpeg",
-  },
+  { title: "الکتروموتور", href: "/products/c/electromotor", image: "/categories/electromotor.jpeg" },
+  { title: "گیربکس NMRV (حلزونی)", href: "/products/c/gearbox-nmrv", image: "/categories/gearbox-nmrv.jpeg" },
+  { title: "گیربکس صنعتی", href: "/products/c/industrial-gearbox", image: "/categories/industrial-gearbox.jpeg" },
+  { title: "جک اسکرو", href: "/products/c/screw-jack", image: "/categories/screw-jack.jpeg" },
+  { title: "ویبراتور", href: "/products/c/vibrator", image: "/categories/vibrator.jpeg" },
 ];
+
 
 export default function ProductCategories() {
   return (
