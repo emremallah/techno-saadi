@@ -95,8 +95,8 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <Phone size={18} className="mt-0.5 text-orange-500" />
                 <div className="ltr:text-left">
-                  <a href="tel:021XXXXXXX" className="hover:text-orange-600">
-                    ۰۲۱-XXXXXXX
+                  <a href="tel:+989126583961" className="hover:text-orange-600">
+                    09126583961
                   </a>
                   <div className="text-slate-500 dark:text-slate-400">
                     شنبه تا چهارشنبه ۹ تا ۱۷
@@ -117,7 +117,7 @@ export default function Footer() {
               <li className="flex items-start gap-2">
                 <MapPin size={18} className="mt-0.5 text-orange-500" />
                 <div>
-                  <span>تهران، خیابان سعدی، پلاک ۱۲۳</span>
+                  <span>تهران، خیابان سعدی جنوبی، پاساژ سعدی قدیم، پلاک 3 برند TS (تکنو سعدی)</span>
                   <div>
                     <a
                       className="text-sm text-orange-600 hover:underline"
